@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+}
+.top-plyers{
+    font-size: 25px;
+    color: rgba(0, 0, 255, 0.318);
+}
+.plyrs-container{
+  margin-left: 200px;
+    width: 70%;
+}.plyers-item{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    align-items: center;
+    grid-auto-rows: 1fr;
+    row-gap: 20px;
+
+}
+.plyers-item img{
+    width: 50px;
+}
+.plyer-name{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+hr{
+width:85%;
+height:1px;
+background-color: black;
+margin-right: 300px;
+}
